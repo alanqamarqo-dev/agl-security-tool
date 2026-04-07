@@ -12,4 +12,4 @@ fastapi
 uvicorn
 sympy
 wikipedia-api
-python-multipart
+python-multipart>=0.0.22
