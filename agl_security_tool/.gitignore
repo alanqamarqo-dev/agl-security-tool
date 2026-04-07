@@ -1,0 +1,63 @@
+# Python virtual environments
+.venv/
+.venv_linux/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build & packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Pytest
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Temp test files & results (prefixed with _)
+_*.py
+_*.json
+_*.log
+_*.md
+_*.sh
+_*.txt
+_*.sol
+_*/
+
+# Temp Solidity & build artifacts
+tmpaayb7lg5.sol
+graph.dot
+test_contracts/real_world/cache/
+test_contracts/real_world/out/
+artifacts/*.bak*
+
+# Artifacts - model files (large)
+artifacts/Qwen2.5-3B-Instruct/
+artifacts/agl-solidity-expert/
+artifacts/holographic_llm/
+artifacts/training_master.jsonl
+
+# Bounty contracts (large, fetched separately)
+bounty_contracts/
+
+# Foundry lib dependencies (fetched via forge install)
+shared_libs/lib/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment secrets
+.env
+
+# Misc
+dvd_err.txt
+*.log
