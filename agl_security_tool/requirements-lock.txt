@@ -1,0 +1,23 @@
+# AGL Security Tool v2.1.0 — Pinned Dependencies
+# Generated from .venv_linux on Python 3.12.3
+# Reinstall with: pip install -r requirements-lock.txt
+# المصدر الأساسي: pyproject.toml
+
+# ── Core ──
+requests==2.31.0
+z3-solver==4.16.0
+numpy==2.4.3
+pydantic==2.12.5
+psutil==7.2.2
+
+# ── API Server ──
+fastapi==0.135.2
+uvicorn==0.42.0
+python-jose[cryptography]==3.4.0
+bcrypt==4.2.1
+sqlalchemy==2.0.48
+slowapi==0.1.9
+python-multipart==0.0.22
+
+# ── Dev ──
+pytest==9.0.2

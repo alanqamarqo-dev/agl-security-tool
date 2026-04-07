@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual envs
+.venv/
+.venv_linux/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Test/debug files
+_*.py
+_*.json
+_*.log
+_*.sh
+_*.txt
+_*.md
+_broken_poc/
+_diagnostics/
+
+# Artifacts (large models)
+artifacts/Qwen2.5-3B-Instruct/
+artifacts/agl-solidity-expert/
+artifacts/holographic_llm/
+
+# Cache & OS
+.pytest_cache/
+.git/
+.github/
+Thumbs.db
+.DS_Store
+*.tar.gz
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Docs (not needed in image)
+docs/
+*.md
+!README.md
