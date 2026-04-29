@@ -13,6 +13,7 @@
 ## Overview | نظرة عامة
 
 AGL Security Tool is an **8-layer** smart contract security analyzer combining:
+
 - **Layer 0:** Solidity flattening + Z3 symbolic execution (BitVec 256-bit proofs)
 - **Layer 1-4:** Financial state extraction → action space enumeration → attack simulation → 5-strategy guided search
 - **Layer 5:** 22+ semantic vulnerability detectors
@@ -181,6 +182,7 @@ curl http://localhost:8000/health
 | `graph` | Dependency graph (JSON) | `agl-security graph ./my-project -o deps.json` |
 
 **Common flags:**
+
 - `-f json|markdown|text` — Output format (default: `text`)
 - `-o report.md` — Save to file
 - `-r, --recursive` — Scan subdirectories
@@ -204,7 +206,7 @@ curl http://localhost:8000/health
 
 ---
 
-## File Structure | هيكل الملفات
+## File Structure | هيكل الملفات 
 
 ```
 agl_security_tool/
